@@ -16,8 +16,8 @@ namespace LdapIntegration
         public static string LdapDomainPersonel { get; set; }
         public static string UserStudent { get; set; } 
         public static string PassStudent { get; set; } 
-        public static string UserPersonel { get; set; } 
-        public static string PassPersonel { get; set; }
+        public static string UserPersonel { get; set; }
+        public static string PassPersonel { get; set; } 
         #endregion
 
         public static Boolean LoginStudent()

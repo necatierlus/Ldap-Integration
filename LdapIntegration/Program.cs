@@ -6,10 +6,9 @@ namespace LdapIntegration
     {
         static void Main(string[] args)
         {
-            //var result = LdapLogin.GetLdapInfo();
-            //LdapLogin.GetAllUsers();
-            //LdapLogin.GetAUser("naimatalar@halic.edu.tr");
-            //LdapLogin.GetUserGroups("naimatalar@halic.edu.tr");
+            LdapLogin.GetAllUsers();
+            LdapLogin.GetAUser("user_mail");
+            LdapLogin.GetUserGroups("user_mail");
             bool resultStudent = LdapLogin.LoginStudent();
             bool resultPersonel = LdapLogin.LoginPersonel();
             Console.WriteLine(resultStudent + " " + resultPersonel);
